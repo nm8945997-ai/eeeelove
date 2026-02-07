@@ -1,3 +1,51 @@
+/* =========================
+   MOBILE RESPONSIVE FIX
+   ========================= */
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #wrap {
+        width: 100%;
+        height: auto;
+    }
+
+    #canvas {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #text {
+        position: relative;
+        top: 20px;
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .title {
+        font-size: 32px;   /* fits mobile nicely */
+        margin-bottom: 15px;
+    }
+
+    .say {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    #clock-box {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 15px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+}
 @font-face {
     font-family: 'LoveSignatureFont';
     src: url('./signature-font.otf') format('opentype');
