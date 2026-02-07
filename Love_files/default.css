@@ -162,3 +162,13 @@ a {
 .space {
 	margin-right: 150px;
 }
+/* === MOBILE SCALE ONLY (NO LAYOUT CHANGE) === */
+@media screen and (max-width: 768px) {
+    #wrap {
+        transform: scale(0.33);
+        transform-origin: top left;
+        width: 300%;
+        height: auto;
+    }
+}
+
